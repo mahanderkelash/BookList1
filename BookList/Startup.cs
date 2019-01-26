@@ -23,7 +23,7 @@ namespace BookList
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddDbContext<ApplicationDbContext>(options => options.use)
+            services.AddDbContext<ApplicationDbContext>(options => options.use);
 
             services.AddMvc();
         }
